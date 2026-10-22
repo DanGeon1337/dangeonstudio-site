@@ -1,0 +1,14 @@
+:root{--bg:#24183F;--bg2:#4A2C6E;--ink:#EFE6F7;--muted:#C9BEDA;--gold:#E2BC72}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:linear-gradient(170deg,var(--bg),var(--bg2)) fixed;color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px 20px 80px}
+h1{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:40px;line-height:1.1;margin:8px 0 4px}
+h2{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:24px;margin:32px 0 6px;color:var(--gold)}
+.label{letter-spacing:.14em;text-transform:uppercase;font-size:12px;color:var(--gold)}
+.muted{color:var(--muted)}
+a{color:var(--gold)}
+img.mark{width:72px;height:72px}
+.card{display:flex;gap:16px;align-items:center;margin-top:32px;padding:18px;border:1px solid rgba(239,230,247,.18);border-radius:18px;background:rgba(239,230,247,.06);color:var(--ink);text-decoration:none}
+.card img{width:56px;height:56px}
+.card strong{font-family:"Cormorant Garamond",Georgia,serif;font-size:24px;display:block}
+.links a{display:inline-block;margin:6px 18px 0 0}
